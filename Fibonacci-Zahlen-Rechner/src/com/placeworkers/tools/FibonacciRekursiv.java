@@ -3,7 +3,7 @@ package com.placeworkers.tools;
 public class FibonacciRekursiv {
 	// Rekursive Berechnung der Fibonaccizahl
 	public static int berechne(int i) {
-		if (i < 2) // fuer negative Zahl auch 0!
+		if (i < 2) 
 			return 1;
 		else
 			return berechne(i - 1) + berechne(i - 2);
@@ -12,7 +12,7 @@ public class FibonacciRekursiv {
 }
 // FibonacciZahlen.
 //
-// Fibonacci ist definiert als eine Funktion mit natürlichen Zahlen, die wie
+// Fibonacci ist definiert als eine Funktion mit natÃ¼rlichen Zahlen, die wie
 // folgt definiert ist:
 //
 // F(n) = F(n-1)+F(n-2)
